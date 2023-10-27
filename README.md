@@ -19,7 +19,7 @@ cd experiments
 ```
 ### Step 1: Simulating Federated Learning
 ```main
-python federated_main-mnist-mia-attack.py \
+python federated_main-mnist-mia-attack.py
 ```
 - Use the format ```federated_main-{dataset}-{attack type}-attack.py```.
 - Attack type: ```'mia'```,```'inv'```, ```'aga'``` has been tested.
