@@ -23,7 +23,7 @@ python federated_main-mnist-mia-attack.py \
 ```
 - Use the format ```federated_main-{dataset}-{attack type}-attack.py```.
 - Attack type: ```'mia'```,```'inv'```, ```'aga'``` has been tested.
-- Dataset: ```'MNIST'```,```'Fashion-MNIST'```, ```'CIFAR10'``` has been tested.
+- Dataset: ```'mnist'```,```'Fashion-mnist'```, ```'cifar'``` has been tested.
 - option.py, optionsfashionmnist.py, and optionscifar.py are used to set parameters according to the datasets used, i.e. MNIST, Fashion-MNIST, and CIFAR-10, respectively.
 
 ### Step 2: Running 'PROLIN'
