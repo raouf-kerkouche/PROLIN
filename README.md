@@ -12,7 +12,7 @@ Contact: Raouf Kerkouche ([raouf.kerkouche@cispa.de](mailto:raouf.kerkouche@cisp
 
 ## Requirements
  - This implementation is based on [PyTorch](https://pytorch.org/) (tested for version 1.7.1).
- - Create the following folders: ```'Presentation'```,```'Presentation_aga'```,```'Presentation_inv'``` and ```'Results_CCS'``` inside ```./experiments```
+ - Create the following folders: ```'Presentation'```,```'Presentation_aga'```,```'Presentation_inv'``` and ```'Results_CCS'``` inside ```./experiments/```
 ## Running Experiments
 ```Please enter the folder.
 cd experiments 
@@ -31,7 +31,7 @@ python federated_main-mnist-mia-attack.py \
 python prolin.py
 ```
 ### Step 3: Generating the figures
-- Please use the Jupyter Notebook ```'Plot_figures.ipynb'``` to generate the figures.
+- Please use the Jupyter Notebook ```'Plot_figures.ipynb'``` in ```./experiments/Results_CCS/``` to generate the figures.
 
 ## Citation
 ```bibtex
